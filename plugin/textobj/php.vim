@@ -8,11 +8,6 @@ call textobj#user#plugin('php', {
 \       'select-a': 'aP',
 \       'select-i': 'iP',
 \   },
-\   'phparray': {
-\       '*pattern*': ['array[[:blank:][:return:]\n]*(\|\%(array[[:blank:][:return:]\n]*\)\@<!(',')'],
-\       'select-a': 'aap',
-\       'select-i': 'iap',
-\   },
 \})
 
 let loaded_textobj_php = 1
